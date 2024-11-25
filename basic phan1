@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title">Hello World! </h1>
+      <h6>Xin chao Viet Nam</h6>
+      <a href="https://qldt.ptit.edu.vn/#/lichthi" target="_blank"> kttl</a>
+      <p>Neu cac ban thich vui long <a href="google.com" target="_blank">nhan vo day</a></p>
+      <p class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      <p id="currentTime"></p>
+      <script src="script.js"></script>
+      <img scr="img_0004s_0001_cn-2.jpg" alt="nature"/>
+      <h1>Welcome to our website</h1>
+      <h2>Post list</h2>
+      <h3>This is a simple title for post</h3>
+      <ul class="menu">
+        <li class="item">
+          <a href="https://www.youtube.com/watch?v=y576-ONm5II&list=RDleYJotEvjJ0&index=16" target="_blank">Rhymastic</a>
+        </li>
+        <li class="item">
+          <a href="#">Feature</a>
+        </li>
+        <li class="item">
+          <a href="#">Lifestyle</a>
+        </li>
+      </ul>
+    <ul>
+      <li>
+        <a href="https://www.youtube.com/watch?v=mnQMvKnvEKs&list=RDleYJotEvjJ0&index=17" target="_blank">Ngay em dep nhat</a>
+        <ul>
+          <li>It is working....</li>
+        </ul>
+      </li>
+    </ul>
+    <h1><i>HTML co ban cho nguoi moi hoc phan1</i></h1>
+  </body>
+</html>
