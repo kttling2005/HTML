@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1 class="title">Hello, World!</h1>
+    <h2>Sign up</h2>
+    <div>
+        <label for="name">Your name:</label>
+        <input type="text" id="name" placeholder="Name" />
+    </div>
+    <div>
+        <label for="email">Your email:</label>
+        <input type="email" id="name" placeholder="Email" />
+    </div>
+    <div>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="gender" value="male" name="gender" />Male
+        <input type="radio" id="gender" value="female" name="gender" />Femal
+    </div>
+    <div>
+        <label for="message">Your message:</label>
+        <textarea type="text" name="message" id="message" placeholder="write your message here..."></textarea>
+    </div>
+    <div>
+        <button type="submit" class="form-submit">Sign in</button>
+    </div>
+    <div>
+        <select name="option">
+            <option value="option a">option A</option>
+            <option value="option b">option B</option>
+            <option value="option c">option C</option>
+        </select>
+    </div>
+    <button type="submit"><i class="fa fa-plus"></i><span>Submit</span></button>
+</body>
+
+</html>
