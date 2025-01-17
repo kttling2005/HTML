@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <div class="text-align">
+        <h1 class="heading" >Hello,world</h1>
+        <hr>
+        <p>“I’m protecting you,<br>since you clearly can’t do it yourself.”</p>
+        <div class="text">
+        <p>My mood <mark>darkened</mark> further when I saw the pictures of her <q>lying on the bed</q>, staring sultrily at the camera. How long had she and Blondie been doing this, alone? It didn’t take a genius to figure out what had been going through his mind the entire time. It was the same thing that would’ve gone through any red-blooded male’s mind.</p>
+        </div>
+    </div>
+</body>
+</html>
