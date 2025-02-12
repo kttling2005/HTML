@@ -1,0 +1,63 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+
+ .main-content li{
+    position: relative;
+    display: inline; 
+    margin-left: 40px;
+    font-size: 40px;
+} 
+
+.main-content li:hover {
+    color: red;
+}
+
+.main-content li::after{
+    width: 0%;
+    height: 10px;
+    position: absolute;
+    background-color: black;
+    content: '';
+    bottom: -3px;
+    left: 0 ;
+    transition: width 500ms  ease-in-out;
+}
+
+.main-content li:hover::after{
+    width: 100%;
+}
+
+.box{
+    text-align: center;
+    font-size: 40px;
+    width: 100px;
+    height: 100%;
+    background-color: rgb(121, 120, 89);
+    /* animation-name: thump;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite; */
+
+    animation: thump 2s ease-in-out  infinite alternate,moveleft 6s ease-in-out infinite alternate;
+    position: relative;
+}
+
+@keyframes thump {
+    100%{
+        background-color: rgb(220, 142, 65);
+        width: 250px;
+    }
+}
+
+@keyframes moveleft {
+    0%{
+        left: 20px;
+    }
+    100%
+    {
+        left: 1000px;
+    }
+}
+
